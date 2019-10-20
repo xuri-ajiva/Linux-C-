@@ -22,6 +22,7 @@ namespace ConsoleApplication1 {
                 //start clinet
                 Client.Start();
                 
+                //exit
                 Console.ReadLine();
             } catch (Exception e) {
                 Console.WriteLine( e );
