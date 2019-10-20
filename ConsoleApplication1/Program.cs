@@ -16,7 +16,10 @@ namespace ConsoleApplication1 {
 
         public static void Main(string[] args) {
             try {
+                //start server
                 Server.Start();
+                
+                //start clinet
                 Client.Start();
                 
                 Console.ReadLine();
